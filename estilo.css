@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+h1{font-family: 'Roboto', sans-serif;
+text-align: center;
+         }
+body{
+    background-image: url("fondo.jpg");
+ background-color: #cccccc;
+        font-family: 'Montserrat', sans-serif;
+         padding: 50px;
+    }
+.top{
+    background: #333;
+    color: #fff;
+    border-radius: 25px;
+}
+.imgresponsive{
+             width: 100%;
+  max-width: 200px;
+  height: auto;}
+.item1,.item2,.item3,.item4{
+    padding: 10px;
+    border: solid 1px gray;
+    display: grid;
+    grid-gap: 10px;
+    overflow:hidden;
+    background: white;
+}
+i{color:orange;}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  body { padding: 5px;
+    }
+}
